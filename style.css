@@ -1,0 +1,55 @@
+.bgrd{
+    background-image: url(img/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.jpeg);
+    background-position:60% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.start{
+    padding-top: 200px
+}
+
+.game-pass{
+    position: absolute;
+    top: 30%;
+    left: 8%
+}
+.game-lg{
+    display: none;
+}
+.arrow-up{
+    position: absolute;
+    right: 8%;
+}
+
+.footer{
+    grid-gap: 100px;  
+}
+footer h6{
+    color: gray;
+    cursor: text;
+}
+footer p{
+    font-size: 12px;
+    cursor: pointer;
+}
+.copyright{
+    position: absolute ;
+    right: 8%;
+}
+@media(max-width: 768px){
+    .start{
+        visibility: hidden;
+    }
+    .media-text{
+        text-align: center !important;
+    }
+}
+@media(max-width: 1400px){
+    .game-md{
+        display: none;
+    }
+    .game-lg{
+        display: block;
+    }
+}
